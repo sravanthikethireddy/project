@@ -254,16 +254,13 @@
             var trackId = $routeParams.tid;
             console.log("isir")
             model.showWiki = false;
+            console.log(trackId)
+            if(trackId!=="new"){
             MusicService
                 .findTrackById(trackId)
-                // console.log("ooo")
-                //     console.log(trackId)
                 .then(function (response) {
-                    console.log("here")
-                    console.log(trackId)
                     return response.data;
                 }, function (err) {
-                    console.log("ok")
                     return MusicService
                         .findTrackBymbidAPI(trackId)
                         .then(function (response) {
@@ -293,7 +290,7 @@
                 }, function (err) {
                     model.error = "Oops! Something went wrong!";
                 })
-        }
+        }}
 
         init();
 
