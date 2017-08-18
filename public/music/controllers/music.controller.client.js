@@ -291,7 +291,6 @@
                     model.error = "Oops! Something went wrong!";
                 })
         }
-        }
 
         init();
 
