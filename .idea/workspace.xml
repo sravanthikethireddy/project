@@ -2,7 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c32c6d5-89cf-49ed-856c-dcf5555b9a23" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/home/controllers/home.controller.client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/home/views/header.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/home/views/home.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/load_image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/controllers/music.controller.client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/views/artist-list.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/views/artist-track-list.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/views/favorite.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/views/message.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/views/share.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/views/track-list.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/views/track-new.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/music/views/track.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/05467ae63f06fb701b077f97060809a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/0588c5071230922b5aa76a67357eaeb1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/072a496285e914630105b061f92de75f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/088058103acb77d85bb7ee65943cd884" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/0bd1ee1f2ea0d8ce71a92f767c4c7167" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/0cbf2085c93232280bea8129e109d56e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/10ec368a33e108bac9dcfac1570ad785" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/125c7ee69d98b22cf8b7b4dd8110b482" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/16e96b29272c3da64bf75949c8fb7f1a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/16ed48694a6881d594d97bfa5f0793d9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/1c4c273519296cfd35881eaf128ff984" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/1dfc5edb1a7fcb52cd8141632d5dbd0d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/1e618e0bed9fbaae672ec6607c54cac9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/1f8dea96e05b377f50ab9ffa88aaf4fd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/1fc9d4ec0ccf1bf445e8fbf122ea1188" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/291a3ee93cf7b6a62690210b3b6288c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/2c519c06ea390d4eb65c88bb28aa0651" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/2f6d0a4f033b2e8859f859fb06aef1c2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/3036541942733c4ba4750dccb75ce8fa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/31a1f6c0e1bcbd19e5f3462547932b73" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/375b7aa2c4cd704ca1503111f87f2170" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/39db252a688790d0bfcc78d82ff1b47d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/4014f107eaa799013bee0a6a8fc1501d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/446cb0618f24b0ad17b8f66cfe02f3e5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/4feac538fe9baa5dd028c3e88f06aed5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/531f348c4040f97dd4fa1c2fde7f87ae" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/5561dbfbca598be4f785853857db2afd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/57e220d59b90268493890c84ea09d9ea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/583bf5e450cb0277e08c1b2bc52efb41" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/5915899b53b01bdecc4a666d10502a68" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/5adbb49a7893a198d279fd092e1bec27" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/603a5c988bf2ecd0e8c92434664b7db9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/667a4826d35a7fce53a0fe80462d4eea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/67586d7fd33b1de1ae708d3e0341bb90" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/68c0b797dc4e38825511f45b61de93cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/7dea57c85becaa9b101754ce432116e5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/7f6b387b2303ef1f32bc92b73574ef18" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/8b4cd82b32ba83f1ebffeccb68e56b37" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/8ccec956ec4f2f0abdab4d5373eab68a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/8d517b95a8c8adb0c431d961d2e2a19a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/a0b93b5034e15248bb3b7884cebb1374" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/a0f41f84863317626f487ad13e13edd5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/a3ae9d3e00430ee51f3c8fb2195d1719" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/a807fdd8819275ef167d6f91a77c98a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/ac3ab7f8c2f2ac1c3394c1c814e4de41" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/b3ac52a448835abfba8a663f820a91b5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/b738506f9387a813fef892adc5cfabbc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/bf24f334c0d64ff72510bec847a400f2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/c12388b982d5c33d1aafb0374c4c5124" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/c28e63d7b52593e63d40a02fe0075b95" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/c7fdb09db3a222256c1f4f46fde5ead9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/caa352b88108acff86b652ae6bc65766" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/d108fe29f37eef56a6788476cdc236d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/d1d9c2e01a2b04d01aabe11c9b8ef1f6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/d268a3abfa2d4ae5eb0f9441cf82fa9d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/d407529bf8fd9c3de14bf3e2c8420660" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/d58e94af6cc52cbfc9fa96430a65ce27" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/default-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/default_track.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/e3cf6e8f857c02db3b50618f96e76a7f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/ebc045a490416614ef9f0dadaebfbba3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/ec6a323c4c4b9e3a4e9e954f8a9a3571" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/f4245af51757ecf57c1166fe82bb6d89" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/f92e1de5074739e0fbdd30640a825068" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/fa68429c33b60147fce892e195e91246" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/flute.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/user/controllers/user.controller.client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/user/views/admin.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/user/views/login.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/user/views/profile.view.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/user/views/register.view.client.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/uploads/465d4256c1a3f113689bf54bb49e9a3f" afterPath="$PROJECT_DIR$/public/uploads/user_image.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/config.js" afterPath="$PROJECT_DIR$/public/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/services/music.service.client.js" afterPath="$PROJECT_DIR$/public/services/music.service.client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/services/user.service.client.js" afterPath="$PROJECT_DIR$/public/services/user.service.client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/model/user/user.model.server.js" afterPath="$PROJECT_DIR$/server/model/user/user.model.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/model/user/user.schema.server.js" afterPath="$PROJECT_DIR$/server/model/user/user.schema.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/services/music.service.server.js" afterPath="$PROJECT_DIR$/server/services/music.service.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/services/user.service.server.js" afterPath="$PROJECT_DIR$/server/services/user.service.server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/app.js" afterPath="$PROJECT_DIR$/test/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +118,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="music.controller.client.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/music/controllers/music.controller.client.js">
+      <file leaf-file-name="user.service.server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/services/user.service.server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-902">
-              <caret line="292" column="9" lean-forward="true" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="9" />
+            <state relative-caret-position="-7554">
+              <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+              <folding>
+                <marker date="1503038433905" expanded="false" signature="5537:5597" ph="{...}" />
+                <marker date="1503038433905" expanded="false" signature="9685:9737" ph="{...}" />
+                <marker date="1503038433905" expanded="false" signature="12546:12760" ph="{...}" />
+                <marker date="1503038433905" expanded="false" signature="12801:12834" ph="{...}" />
+                <marker date="1503038433905" expanded="false" signature="13189:13543" ph="{...}" />
+                <marker date="1503038433905" expanded="false" signature="13999:14331" ph="{...}" />
+                <marker date="1503038433905" expanded="false" signature="14375:14707" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/user/views/login.view.client.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="31" column="16" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="31" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.service.server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/services/user.service.server.js">
+      <file leaf-file-name="profile.view.client.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/user/views/profile.view.client.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8379">
-              <caret line="399" column="0" lean-forward="false" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2562">
+              <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="express.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,85 +219,8 @@
       <file leaf-file-name="upload.service.server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/services/upload.service.server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music.service.server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/services/music.service.server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.schema.server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/model/user/user.schema.server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.view.client.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/music/views/message.view.client.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#b#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#a#1;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#b#0;n#a#2;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music.service.client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/services/music.service.client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
-              <folding>
-                <element signature="e#958#1184#0" expanded="false" />
-                <element signature="e#1214#1280#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.service.client.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/services/user.service.client.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="query.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/query.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="2981" column="58" lean-forward="false" selection-start-line="2981" selection-start-column="58" selection-end-line="2981" selection-end-column="58" />
+            <state relative-caret-position="-230">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,39 +239,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gettrackinfo</find>
-      <find>currentUser</find>
-      <find>img-f</find>
-      <find>gray</find>
-      <find>card-blo</find>
-      <find>img-fl</find>
-      <find>newComment</find>
-      <find>comm</find>
-      <find>p</find>
-      <find>float-right</find>
-      <find>togglefav</find>
-      <find>fa heart</find>
-      <find>heart</find>
-      <find>accordion</find>
-      <find>deserialize</find>
-      <find>text-p</find>
-      <find>gettop</find>
-      <find>console</find>
-      <find>trackcon</find>
-      <find>class=&quot;col-3&quot;</find>
-      <find>track.</find>
-      <find>you can add</find>
-      <find>toptags</find>
-      <find>Love</find>
-      <find>gettrackdetails</find>
-      <find>#/track/new</find>
-      <find>#/</find>
-      <find>loading</find>
-      <find>getinfo</find>
-      <find>vsk</find>
+      <find>card-img-top img-fit</find>
+      <find>love</find>
+      <find>uploads</find>
+      <find>default</find>
+      <find>body</find>
+      <find>image[</find>
+      <find>card-img-top</find>
+      <find>card-de</find>
+      <find>ArtistsController</find>
+      <find>ArtistListController</find>
+      <find>ArtistTrackController</find>
+      <find>FavoriteController</find>
+      <find>MessageController</find>
+      <find>TrackController</find>
+      <find>TrackListController</find>
+      <find>unfav</find>
+      <find>artisttrack</find>
+      <find>TrackNewController</find>
+      <find>delete</find>
+      <find>when</find>
+      <find>success</find>
+      <find>white</find>
+      <find>dele</find>
+      <find>google</find>
+      <find>googleid</find>
+      <find>facebook</find>
+      <find>Facebook</find>
+      <find>fb</find>
+      <find>strategy</find>
+      <find>callbackurl</find>
     </findStrings>
     <replaceStrings>
-      <replace>UserService</replace>
       <replace>MozzieUser</replace>
       <replace>toggleWiki</replace>
       <replace>Control</replace>
@@ -188,7 +287,6 @@
       <replace>res.sendStatus(200)</replace>
       <replace>isLoggedin</replace>
       <replace>error</replace>
-      <replace>val</replace>
       <replace>mod</replace>
       <replace>MozzieId</replace>
       <replace>delete</replace>
@@ -196,6 +294,13 @@
       <replace>h5</replace>
       <replace>b</replace>
       <replace>Fav</replace>
+      <replace>#</replace>
+      <replace>msg</replace>
+      <replace>NewController</replace>
+      <replace>ArtistsController</replace>
+      <replace>cornsilk</replace>
+      <replace>val</replace>
+      <replace>fb</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Sravanthi Kethireddy\Desktop\project_mozzie\public\services</dir>
@@ -210,27 +315,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/user/controllers/login.controller.client.js" />
-        <option value="$PROJECT_DIR$/public/music/controllers/share.controller.client.js" />
-        <option value="$PROJECT_DIR$/public/music/controllers/artist-list.controller.client.js" />
-        <option value="$PROJECT_DIR$/public/user/controllers/register.controller.client.js" />
-        <option value="$PROJECT_DIR$/public/music/controllers/artist-track-list.controller.client.js" />
-        <option value="$PROJECT_DIR$/public/music/controllers/track-new.controller.client.js" />
-        <option value="$PROJECT_DIR$/public/music/controllers/track-list.controller.client.js" />
-        <option value="$PROJECT_DIR$/public/music/controllers/track.controller.client.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/test/app.js" />
         <option value="$PROJECT_DIR$/public/home/controllers/header.controller.client.js" />
         <option value="$PROJECT_DIR$/public/app.js" />
-        <option value="$PROJECT_DIR$/public/services/user.service.client.js" />
         <option value="$PROJECT_DIR$/public/home/controllers/home.controller.client.js" />
         <option value="$PROJECT_DIR$/public/user/controllers/user.controller.client.js" />
-        <option value="$PROJECT_DIR$/public/config.js" />
         <option value="$PROJECT_DIR$/server/model/track/track.schema.server.js" />
-        <option value="$PROJECT_DIR$/server/model/user/user.model.server.js" />
         <option value="$PROJECT_DIR$/server/app.js" />
-        <option value="$PROJECT_DIR$/server/services/music.service.server.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/vendor/tether.min.js" />
         <option value="$PROJECT_DIR$/public/vendor/angular.min.js" />
@@ -241,7 +332,6 @@
         <option value="$PROJECT_DIR$/public/user/views/admin.view.client.html" />
         <option value="$PROJECT_DIR$/public/user/views/login.view.client.html" />
         <option value="$PROJECT_DIR$/public/user/views/profile.view.client.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/user/views/register.view.client.html" />
         <option value="$PROJECT_DIR$/server/services/upload.service.server.js" />
         <option value="$PROJECT_DIR$/public/music/views/artist-list.view.client.html" />
@@ -253,14 +343,29 @@
         <option value="$PROJECT_DIR$/public/home/views/header.view.client.html" />
         <option value="$PROJECT_DIR$/public/home/views/home.view.client.html" />
         <option value="$PROJECT_DIR$/public/music/views/track.view.client.html" />
-        <option value="$PROJECT_DIR$/server/services/user.service.server.js" />
         <option value="$PROJECT_DIR$/public/music/views/artist-track-list.view.client.html" />
         <option value="$PROJECT_DIR$/../mymusic-PROJECT1.2/mymusic-PROJECT1.2/public/services/music.service.client.js" />
         <option value="$PROJECT_DIR$/server/model/track/track.model.server.js" />
-        <option value="$PROJECT_DIR$/public/services/music.service.client.js" />
         <option value="$PROJECT_DIR$/public/music/controllers/music.controller.client.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/views/home/controllers/home.controller.client.js" />
+        <option value="$PROJECT_DIR$/public/views/music/views/share.view.client.html" />
+        <option value="$PROJECT_DIR$/public/views/music/views/message.view.client.html" />
         <option value="$PROJECT_DIR$/server/model/user/user.schema.server.js" />
+        <option value="$PROJECT_DIR$/public/views/music/views/favorite.view.client.html" />
+        <option value="$PROJECT_DIR$/public/views/music/views/artist-track-list.view.client.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/public/services/music.service.client.js" />
+        <option value="$PROJECT_DIR$/public/services/user.service.client.js" />
+        <option value="$PROJECT_DIR$/public/views/music/controllers/music.controller.client.js" />
+        <option value="$PROJECT_DIR$/public/views/music/views/track-list.view.client.html" />
+        <option value="$PROJECT_DIR$/public/views/music/views/track-new.view.client.html" />
+        <option value="$PROJECT_DIR$/server/model/user/user.model.server.js" />
+        <option value="$PROJECT_DIR$/server/services/music.service.server.js" />
+        <option value="$PROJECT_DIR$/public/views/user/views/login.view.client.html" />
+        <option value="$PROJECT_DIR$/public/config.js" />
+        <option value="$PROJECT_DIR$/test/app.js" />
+        <option value="$PROJECT_DIR$/server/services/user.service.server.js" />
       </list>
     </option>
   </component>
@@ -283,9 +388,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
     <handled-path value="$PROJECT_DIR$/public/js/tether-1.3.3/tether-1.3.3/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="940" />
+    <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -320,18 +425,49 @@
               <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="music" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="music" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -339,6 +475,7 @@
               <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="music" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -346,13 +483,24 @@
               <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
               <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project_mozzie" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project_mozzie" type="b2602c69:ProjectViewProjectNode" />
@@ -399,19 +547,20 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="editorconfig.notification" value="spaces" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\arrow\Documents\GitHub\mymusic\public\home\controllers" />
-      <recent name="C:\Users\arrow\Documents\GitHub\mymusic\public" />
-      <recent name="C:\Users\arrow\Documents\GitHub\mymusic\public\music\controllers" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sravanthi Kethireddy\Desktop\project_mozzie\public\uploads" />
       <recent name="C:\Users\Sravanthi Kethireddy\Desktop\project_mozzie\public\images" />
       <recent name="C:\Users\Sravanthi Kethireddy\Desktop\project_mozzie" />
       <recent name="C:\Users\arrow\Documents\GitHub\mymusic\public\music\controllers" />
       <recent name="C:\Users\arrow\Documents\GitHub\mymusic\public\music\views" />
-      <recent name="C:\Users\arrow\Documents\GitHub\mymusic\server\services" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arrow\Documents\GitHub\mymusic\public\home\controllers" />
+      <recent name="C:\Users\arrow\Documents\GitHub\mymusic\public" />
+      <recent name="C:\Users\arrow\Documents\GitHub\mymusic\public\music\controllers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -564,28 +713,27 @@
       <workItem from="1502931297409" duration="7280000" />
       <workItem from="1502938858170" duration="53496000" />
       <workItem from="1503018631440" duration="1263000" />
-      <workItem from="1503019911094" duration="5173000" />
+      <workItem from="1503019911094" duration="18575000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384941000" />
+    <option name="totallyTimeSpent" value="398343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="976" height="1038" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27868852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3767492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24308756" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24031891" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33257404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39863327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -598,19 +746,19 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24145786" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33640552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.244844" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24031891" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10483871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12903225" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,290 +769,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/images/user_image.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/music-track.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/home/controllers/home.controller.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="191" column="31" lean-forward="true" selection-start-line="191" selection-start-column="31" selection-end-line="191" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/model/track/track.schema.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="1261" column="0" lean-forward="false" selection-start-line="1261" selection-start-column="0" selection-end-line="1261" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/model/models.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/model/user/user.model.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="315" column="39" lean-forward="false" selection-start-line="315" selection-start-column="39" selection-end-line="315" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/tether.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24989" lean-forward="false" selection-start-line="0" selection-start-column="24989" selection-end-line="0" selection-end-column="24989" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/angular-route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="1031" column="27" lean-forward="false" selection-start-line="1031" selection-start-column="27" selection-end-line="1031" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="11001" column="29" lean-forward="true" selection-start-line="11001" selection-start-column="29" selection-end-line="11001" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/vendor/jquery-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="18705" column="4" lean-forward="false" selection-start-line="18705" selection-start-column="4" selection-end-line="18705" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/publicstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1198">
-          <caret line="118" column="1" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/user/views/login.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/user/views/admin.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/user/views/profile.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/user/views/register.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/user/controllers/user.controller.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="145" column="53" lean-forward="false" selection-start-line="145" selection-start-column="51" selection-end-line="145" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/views/artist-list.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/views/favorite.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/views/share.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/views/track-list.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="76" lean-forward="true" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/home/views/header.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/home/views/home.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/views/track.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="126" column="33" lean-forward="false" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/views/artist-track-list.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/bootsrap-theme.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/tether-1.3.3/tether-1.3.3/src/js/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mymusic-PROJECT1.2/mymusic-PROJECT1.2/public/services/music.service.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mymusic-PROJECT1.2/mymusic-PROJECT1.2/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/views/track-new.view.client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,82 +806,362 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/services/user.service.client.js">
+    <entry file="file://$PROJECT_DIR$/public/music/views/message.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="399">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/services/music.service.client.js">
+    <entry file="file://$PROJECT_DIR$/public/music/views/track-new.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="105" column="41" lean-forward="true" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
-          <folding>
-            <element signature="e#958#1184#0" expanded="false" />
-            <element signature="e#1214#1280#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/services/user.service.server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8379">
-          <caret line="399" column="0" lean-forward="false" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+        <state relative-caret-position="296">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/services/upload.service.server.js">
+    <entry file="file://$PROJECT_DIR$/public/music/controllers/music.controller.client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="24">
+          <caret line="255" column="35" lean-forward="true" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/services/music.service.server.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="210">
+          <caret line="76" column="41" lean-forward="false" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/model/user/user.schema.server.js">
+    <entry file="file://$PROJECT_DIR$/public/css/publicstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/user/views/register.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1926">
+          <caret line="150" column="19" lean-forward="true" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/background_awesome.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/background_image.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/color.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/gg.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/home.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/load_image.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/loading.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/music-track.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/song.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/user.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/user_image.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/music.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="69" column="31" lean-forward="false" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/services/user.service.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="193" column="41" lean-forward="true" selection-start-line="193" selection-start-column="41" selection-end-line="193" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/home/controllers/home.controller.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3339">
+          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/home/views/header.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/home/views/home.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/controllers/music.controller.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1341">
+          <caret line="436" column="36" lean-forward="true" selection-start-line="436" selection-start-column="36" selection-end-line="436" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/views/artist-list.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/views/artist-track-list.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/views/favorite.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="77" lean-forward="false" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/views/message.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/views/share.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/views/track.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2331">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/views/track-list.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/music/views/track-new.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/user/controllers/user.controller.client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3506">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/model/user/user.model.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4869">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/model/user/user.schema.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/model/models.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/services/music.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/services/upload.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/views/message.view.client.html">
+    <entry file="file://$PROJECT_DIR$/public/views/user/views/login.view.client.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="336">
+          <caret line="31" column="16" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="31" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/user/views/profile.view.client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2562">
+          <caret line="122" column="24" lean-forward="true" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="82" lean-forward="false" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/services/user.service.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7554">
+          <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
           <folding>
-            <element signature="n#style#0;n#b#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#a#1;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#a#2;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1503038433905" expanded="false" signature="5537:5597" ph="{...}" />
+            <marker date="1503038433905" expanded="false" signature="9685:9737" ph="{...}" />
+            <marker date="1503038433905" expanded="false" signature="12546:12760" ph="{...}" />
+            <marker date="1503038433905" expanded="false" signature="12801:12834" ph="{...}" />
+            <marker date="1503038433905" expanded="false" signature="13189:13543" ph="{...}" />
+            <marker date="1503038433905" expanded="false" signature="13999:14331" ph="{...}" />
+            <marker date="1503038433905" expanded="false" signature="14375:14707" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/music/controllers/music.controller.client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-902">
-          <caret line="292" column="9" lean-forward="true" selection-start-line="292" selection-start-column="9" selection-end-line="292" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>

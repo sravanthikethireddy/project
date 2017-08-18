@@ -11,16 +11,18 @@ module.exports = function (model) {
         findUserByUsername: findUserByUsername,
         findUserByCredentials: findUserByCredentials,
         findUserByGoogleId: findUserByGoogleId,
+        findUserByfbId: findUserByfbId,
         findUserById: findUserById,
         findUserByMozzieId: findUserByMozzieId,
         getMessages: getMessages,
         addTrack: addTrack,
         updateProfile: updateProfile,
+        // updateUser:updateUser,
+        deleteTrack: deleteTrack,
         findAllUsers: findAllUsers,
         findAllArtists: findAllArtists,
         deleteMessage: deleteMessage,
-        deleteUser: deleteUser,
-        deleteTrack: deleteTrack
+        deleteUser: deleteUser
     };
     return api;
     // function createUser(user) {
@@ -126,6 +128,10 @@ module.exports = function (model) {
     function findUserByGoogleId(googleId) {
         return userModel.findOne({
             'google.id': googleId
+        });
+    }function findUserByfbId(fbId) {
+        return userModel.findOne({
+            'fb.id': fbId
         });
     }
     // function findUserById(userId) {
@@ -247,16 +253,5 @@ module.exports = function (model) {
             });
         return deferred.promise;
     }
-    function updateUser(user) {
-        var deferred = q.defer();
-        userModel
-            .update({_id: user._id}, {$set: user}, function (drop, val) {
-                if (drop) {
-                    deferred.reject(drop);
-                } else {
-                    deferred.resolve(val);
-                }
-            });
-        return deferred.promise;
-    }
+
 };

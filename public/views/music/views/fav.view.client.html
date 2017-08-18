@@ -1,0 +1,17 @@
+<div ng-show="model.favorites.length==0" class="alert alert-success">
+    No favorites yet!
+    <a href="#/home">click here to view tracks!</a>
+</div>
+<div class="row">
+    <div class="card black" ng-repeat="track in model.favorites" ng-if="track.mbid!=''">
+        <a href="#/track/{{track.mbid}}">
+            <img class="card-img-top" src="{{track.image}}">
+        </a>
+        <div class="card-block">
+            <h4 class="card-title" style="color: cornsilk">{{track.title}}</h4>
+            <p class="card-text" style="color: cornsilk">{{track.artist.mozzieId}}</p>
+            <!--<a ng-click="model.unFav(track._id)" class="btn btn-danger">Delete</a>-->
+            <a href="#/track/{{track.mbid}}" class="btn btn-primary">View</a>
+        </div>
+    </div>
+</div>

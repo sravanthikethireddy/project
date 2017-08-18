@@ -63,7 +63,6 @@ module.exports = function (app, model) {
                             if (user) {
                                 return userModel.findUserByMozzieId(user.mozzieId)
                             } else {
-
                                 user = {
                                     role: 'ARTIST',
                                     mozzieId: req.body.artist,

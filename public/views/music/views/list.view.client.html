@@ -1,0 +1,15 @@
+<!--<div ng-show="model.error" class="alert alert-danger">{{model.error}}</div>-->
+
+<div class="card-columns" ng-show="model.tracks.length!=0">
+    <div class="card black" ng-repeat="track in model.tracks" ng-if="track.mbid!=''">
+        <a href="#/track/{{track.mbid}}">
+            <img class="card-img-top card-default" src="{{model.viewImage(track)}}">
+        </a>
+        <div class="card-block">
+            <p class="card-title" style="color: cornsilk">{{track.name}}</p>
+            <h6 class="card-text" style="color: cornsilk">{{track.artist.name? track.artist.name: track.artist}}</h6>
+            <a ng-show="{{track.streamable.fulltrack}}" href="{{track.streamable['#text']}}" class="btn btn-primary">Play</a>
+            <a href="#/track/{{track.mbid}}" class="btn btn-primary">View</a>
+        </div>
+    </div>
+</div>

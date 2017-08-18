@@ -1,0 +1,14 @@
+<div class="alert alert-success" role="alert" ng-if="model.artist">
+    <a href="#/track/new">Click me to add Tracks!</a>
+</div>
+<div class="row" ng-show="model.tracks.length!=0">
+    <div class="card img-fit black" ng-repeat="track in model.tracks" ng-if="track._id!=''">
+        <a href="#/track/{{track._id}}">
+            <img class="card-img-top img-fit" src="{{track.image}}" alt="{{track.title}}">
+        </a>
+        <div class="card-block">
+            <p class="card-title" style="color: silver">{{track.title}}</p>
+            <h5 class="card-text" style="color: silver">{{track.artist.mozzieId}}</h5>
+        </div>
+    </div>
+</div>

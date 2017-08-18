@@ -6,7 +6,7 @@
     function configuration($routeProvider) {
         $routeProvider
             .when("/home", {
-                templateUrl: "home/views/home.view.client.html",
+                templateUrl: "views/home/views/home.view.client.html",
                 controller: "HomeController",
                 controllerAs: "model",
                 resolve: {
@@ -14,12 +14,41 @@
                 }
             })
             .when("/login", {
-                templateUrl: "user/views/login.view.client.html",
+                templateUrl: "views/user/views/login.view.client.html",
                 controller: "LoginController",
                 controllerAs: "model"
             })
+            .when('/admin', {
+                templateUrl: 'views/user/views/admin.view.client.html',
+                controller: 'AdminController',
+                controllerAs: 'model',
+                resolve: {
+                    adminUser: checkAdmin
+                }
+            })
+            .when("/register", {
+                templateUrl: "views/user/views/register.view.client.html",
+                controller: "RegisterController",
+                controllerAs: "model"
+            })
+            .when("/profile", {
+                templateUrl: "views/user/views/profile.view.client.html",
+                controller: "ProfileController",
+                controllerAs: "model",
+                resolve: {
+                    currentUser: checkLoggedIn
+                }
+            })
+            .when("/favorite", {
+                templateUrl: "views/music/views/fav.view.client.html",
+                controller: "FavController",
+                controllerAs: "model",
+                resolve: {
+                    currentUser: checkLoggedIn
+                }
+            })
             .when("/trending", {
-                templateUrl: "user/views/profile.view.client.html",
+                templateUrl: "views/user/views/profile.view.client.html",
                 controller: "ProfileController",
                 controllerAs: "model",
                 resolve: {
@@ -27,92 +56,68 @@
                 }
             })
             .when("/share/:tid", {
-                templateUrl: "music/views/share.view.client.html",
+                templateUrl: "views/music/views/share.view.client.html",
                 controller: "ShareController",
                 controllerAs: "model",
                 resolve: {
                     currentUser: checkLoggedIn
                 }
             })
-            .when('/admin', {
-                templateUrl: 'user/views/admin.view.client.html',
-                controller: 'AdminController',
-                controllerAs: 'model',
-                resolve: {
-                    adminUser: checkAdmin
-                }
-            })
+
             .when("/artist", {
-                templateUrl: "music/views/artist-list.view.client.html",
-                controller: "ArtistListController",
+                templateUrl: "views/music/views/artist.view.client.html",
+                controller: "ArtistsController",
                 controllerAs: "model"
             })
             .when("/artist/:artistId", {
-                templateUrl: "music/views/artist-track-list.view.client.html",
-                controller: "ArtistTrackController",
+                templateUrl: "views/music/views/tracklist.view.client.html",
+                controller: "TracksController",
                 controllerAs: "model"
             })
-            .when("/message", {
-                templateUrl: "music/views/message.view.client.html",
-                controller: "MessageController",
-                controllerAs: "model",
-                resolve: {
-                    currentUser: checkLoggedIn
-                }
+
+
+            .when("/track", {
+                templateUrl: "views/music/views/list.view.client.html",
+                controller: "ListController",
+                controllerAs: "model"
             })
-            .when("/profile", {
-                templateUrl: "user/views/profile.view.client.html",
-                controller: "ProfileController",
-                controllerAs: "model",
-                resolve: {
-                    currentUser: checkLoggedIn
-                }
-            })
+
             .when("/mylists", {
-                templateUrl: "music/views/artist-track-list.view.client.html",
-                controller: "ArtistTrackController",
+                templateUrl: "views/music/views/tracklist.view.client.html",
+                controller: "TracksController",
                 controllerAs: "model",
                 resolve: {
                     currentUser: checkArtist
                 }
             })
-            .when("/favorite", {
-                templateUrl: "music/views/favorite.view.client.html",
-                controller: "FavoriteController",
+
+            .when("/track/new", {
+                templateUrl: "views/music/views/new.view.client.html",
+                controller: "NewController",
                 controllerAs: "model",
                 resolve: {
-                    currentUser: checkLoggedIn
+                    currentUser: checkArtist
                 }
             })
-            .when("/register", {
-                templateUrl: "user/views/register.view.client.html",
-                controller: "RegisterController",
-                controllerAs: "model"
-            })
-            .when("/track", {
-                templateUrl: "music/views/track-list.view.client.html",
-                controller: "TrackListController",
-                controllerAs: "model"
-            })
             .when("/track/:tid", {
-                templateUrl: "music/views/track.view.client.html",
+                templateUrl: "views/music/views/track.view.client.html",
                 controller: "TrackController",
                 controllerAs: "model",
                 resolve: {
                     currentUser: checkUser
                 }
             })
-            .when("/track/new", {
-                templateUrl: "music/views/track-new.view.client.html",
-                controller: "TrackNewController",
-                controllerAs: "model",
-                resolve: {
-                    currentUser: checkArtist
-                }
-            })
             .when("/logout", {
                 resolve: {
                     logout: logout
+                }
+            })
+            .when("/message", {
+                templateUrl: "views/music/views/msg.view.client.html",
+                controller: "MsgController",
+                controllerAs: "model",
+                resolve: {
+                    currentUser: checkLoggedIn
                 }
             })
             .otherwise({

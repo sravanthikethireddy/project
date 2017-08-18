@@ -6,7 +6,7 @@
     function userService($http) {
         var currentUser = {messages: []};
         var noOfMsgs = {};
-        var currentMenu={};
+        var currentMenu = {};
 
         var api = {
             "login": login,
@@ -28,7 +28,7 @@
             "updateProfile": updateProfile,
             "currentUser": currentUser,
             "noOfMsgs": noOfMsgs,
-            "currentMenu":currentMenu,
+            "currentMenu": currentMenu,
             "addTrack": addTrack,
             "deleteTrack": deleteTrack,
             "getFavorites": getFavorites,
@@ -39,14 +39,16 @@
         return api;
 
         function login(user) {
-            return $http.post('/api/login', user)
+            var url = '/api/login';
+            return $http.post(url, user)
                 .then(function (response) {
                     return response.data;
                 });
         }
 
         function findUserByUsername(username) {
-            return $http.get("/api/user?username=" + username);
+            var url = "/api/user?username=";
+            return $http.get(url + username);
         }
 
         function findUserByCredentials(username, password) {
@@ -54,7 +56,8 @@
         }
 
         function findUserByMozzieId(mozzieId) {
-            return $http.get("/api/user?mozzieId=" + mozzieId)
+            var url = "/api/user?mozzieId=";
+            return $http.get(+mozzieId)
                 .then(function (response) {
                     return response.data;
                 }, function (err) {
@@ -63,32 +66,37 @@
         }
 
         function findUserById(userId) {
-            return $http.get("/api/user/" + userId);
+            var url = "/api/user/" + userId;
+            return $http.get(url);
         }
 
         function isAdmin() {
-            return $http.post('/api/isAdmin')
+            var url = '/api/isAdmin';
+            return $http.post(url)
                 .then(function (response) {
                     return response.data;
                 });
         }
 
         function isArtist() {
-            return $http.post('/api/isArtist')
+            var url = '/api/isArtist';
+            return $http.post(url)
                 .then(function (response) {
                     return response.data;
                 });
         }
 
         function isLoggedin() {
-            return $http.post('/api/isLoggedin')
+            var url = '/api/isLoggedin';
+            return $http.post(url)
                 .then(function (response) {
                     return response.data;
                 });
         }
 
         function getMessages() {
-            return $http.get('/api/user/message')
+            var url = '/api/user/message';
+            return $http.get(url)
                 .then(function (response) {
                     return response.data;
                 });
@@ -109,14 +117,16 @@
         }
 
         function findAllUsers() {
-            return $http.get('/api/user/all')
+            var url = '/api/user/all';
+            return $http.get(url)
                 .then(function (response) {
                     return response.data;
                 });
         }
 
         function findAllArtists() {
-            return $http.get('/api/artist');
+            var url = '/api/artist';
+            return $http.get(url);
         }
 
         function updateUser(userId, n_user) {
@@ -131,27 +141,27 @@
         }
 
         function deleteUser(userId) {
-            return $http.delete("/api/user/" + userId);
+            return $http.remove("/api/user/" + userId);
         }
 
         function updateCurrentUser(actUser) {
             if (actUser._id) {
-                currentUser.username = actUser.username;
-                currentUser.firstName = actUser.firstName;
-                currentUser._id = actUser._id;
                 currentUser.photo = actUser.photo;
-                currentUser.role = actUser.role;
+                currentUser._id = actUser._id;
+                currentUser.username = actUser.username;
                 currentUser.messages = actUser.messages;
-                noOfMsgs.value = currentUser.messages.filter(function (m) {
-                    return !m.read;
+                currentUser.firstName = actUser.firstName;
+                currentUser.role = actUser.role;
+                noOfMsgs.value = currentUser.messages.filter(function (msg) {
+                    return !msg.read;
                 }).length;
             } else {
+                currentUser.photo = null;
+                currentUser._id = null;
                 currentUser.username = null;
                 currentUser.firstName = null;
-                currentUser._id = null;
-                currentUser.photo = null;
-                currentUser.role = null;
                 currentUser.messages = null;
+                currentUser.role = null;
                 noOfMsgs.value = null;
             }
         }
@@ -171,7 +181,8 @@
         }
 
         function getFavorites() {
-            return $http.get('/api/user/favorite')
+            var url = '/api/user/favorite';
+            return $http.get(url)
                 .then(function (response) {
                     return response.data;
                 });
@@ -185,16 +196,16 @@
         }
 
         function register(user) {
-            return $http.post("/api/register", user);
+            var url = "/api/register";
+            return $http.post(url, user);
         }
 
         function logout() {
-            return $http.post('/api/logout')
+            var url = '/api/logout';
+            return $http.post(url)
                 .then(function (response) {
                     return response.data;
                 });
         }
-
-
     }
 })();
