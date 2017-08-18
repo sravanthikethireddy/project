@@ -47,7 +47,8 @@ module.exports = function (app, model) {
     var googleConfig = {
         clientID: process.env.GOOGLE_CLIENT_ID || "937677481614-drnnv1pl7krj9var00idp717ed74494t.apps.googleusercontent.com",
         clientSecret: process.env.GOOGLE_CLIENT_SECRET || "A5VYyLFB3Hrwvk9ZcQg_-Xy2",
-        callbackURL: process.env.GOOGLE_CALLBACK_URL || "http://localhost:3000/auth/google/callback"
+        // callbackURL: process.env.GOOGLE_CALLBACK_URL || "http://localhost:3000/auth/google/callback"
+        callbackURL: process.env.GOOGLE_CALLBACK_URL || "https://mozzie.herokuapp.com/auth/google/callback"
     };
     var fbConfig = {
         clientID: process.env.FACEBOOK_CLIENT_ID || "1958953670985434",
