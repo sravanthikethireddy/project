@@ -10,7 +10,7 @@ module.exports = function(app)
         var password = process.env.MLAB_PASSWORD_WEBDEV;
         connectionString = 'mongodb://' + username + ':' + password;
         // mongodb://<dbuser>:<dbpassword>@ds151153.mlab.com:51153/heroku_s6p4hqrt
-        connectionString += '@ds151153.mlab.com:51153/heroku_s6p4hqrt'; // user yours
+        connectionString += '@ds149613.mlab.com:49613/heroku_b8pt1wkh'; // user yours
     }
 
     var mongoose = require("mongoose");

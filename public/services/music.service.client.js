@@ -7,7 +7,7 @@
 
         var key = "30a06320e1f7730fcc166e7d758722e0";
         var secret = "1baca427e4875f2769f9baf6966b9aed";
-        var urlBase = "http://ws.audioscrobbler.com/2.0/?method=METHOD&PARAMS&api_key=API_KEY&format=json";
+        var urlBase = "https://ws.audioscrobbler.com/2.0/?method=METHOD&PARAMS&api_key=API_KEY&format=json";
         var searchKey = null;
         var api = {
             "topTracks": topTracks,
@@ -25,7 +25,7 @@
 
         function topTracks() {
             console.log("test")
-            var urlBase = "http://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&api_key=API_KEY&format=json";
+            var urlBase = "https://ws.audioscrobbler.com/2.0/?method=tag.gettoptracks&tag=disco&api_key=API_KEY&format=json";
             var url = urlBase.replace("API_KEY", key);
             return $http.get(url);
         }
