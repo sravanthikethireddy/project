@@ -1,0 +1,119 @@
+body {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-image: url("../images/background_awesome.gif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*overflow-x: hidden;*/
+    height: 100%;
+    width: 100%;
+    font-family: 'Tangerine', serif;
+    /*font-size: 60px;*/
+}
+.yellow{
+    background-color: yellow;
+}
+.silver{
+    color: silver;
+}
+
+.msgpop{
+    color: dodgerblue;
+}
+.badge-msg{
+    padding: 1px 9px 2px;
+    font-size: 12.025px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #3a87ad;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+.image-default{
+    border-radius: 50%;
+}
+.display-picture{
+    border-radius: 40%;
+    height:60px;
+    width: 60px;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+
+.z-dropdown{
+    z-index: 1600;
+}
+.blue{
+    background-color: lightblue;
+}
+.mozzie{
+    border: solid goldenrod;
+    border-radius: 10px;
+    color: deepskyblue;
+    font-size: 10px;
+}
+.lefticon{
+    width:60px;
+    height: 60px;
+}
+.transparent {
+    /*opacity: 0.2;*/
+    height: 40px;
+}
+.navbar-sidebar {
+    background-color: #ce1139;
+}
+
+.navbar-default {
+    /*background-color: #e52d27;*/
+    /*border-bottom-color: #337ab7;*/
+    /*background-color: #ce1139;*/
+    /*background-color: #000000;*/
+    /*background-color: black;*/
+    border-bottom-color: gray;
+    /*margin-top: -60px;*/
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-text {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #555555;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: white;
+    }
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: transparent;
+}
+input, textarea {
+    margin-bottom: 5px;
+}

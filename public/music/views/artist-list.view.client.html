@@ -1,0 +1,31 @@
+<img ng-show="!model.artists" class="img-fluid">
+
+<div ng-show="model.artists">
+    <div class="row">
+        <div class="card black" ng-repeat="artist in model.artists" ng-if="!artist.external">
+            <a href="#/artist/{{artist._id}}">
+                <img class="card-img-top img-fit" src="{{artist.photo||'/images/user_image.png'}}">
+            </a>
+            <div class="card-block">
+                <h4 class="card-title gray-text">{{artist.mozzieId}}</h4>
+                <p class="card-text text-white">{{artist.firstName+" "+artist.lastName}}</p>
+                <a href="#/artist/{{artist._id}}"
+                   class="btn btn-primary">View Tracks</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card black" ng-repeat="artist in model.artists" ng-if="artist.external">
+            <a href="#/artist/{{artist._id}}">
+                <img class="card-img-top img-fit" src="{{artist.photo||'/images/user_image.png'}}"
+                     alt="{{artist.mozzieId}}">
+            </a>
+            <div class="card-block">
+                <p class="card-title" style="color: cornsilk">{{artist.mozzieId}}</p>
+                <h5 class="card-text">{{artist.firstName + " " + artist.lastName}}</h5>
+                <a href="#/artist/{{artist._id}}"
+                   class="btn btn-primary">View Tracks</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+<div class="container-fluid">
+    <div class="card-block">
+        <img class="img-fluid prof-pic" src="{{model.user.photo||'../../images/user_image.png'}}">
+        <div class="alert alert-success" ng-show="model.message">
+            {{model.message}}
+        </div>
+        <div class="alert alert-danger" ng-show="model.error">
+            {{model.error}}
+        </div>
+        <div class="card">
+            <form name="formUpload" action="/api/upload" method="post" enctype="multipart/form-data">
+                <div class="input-group">
+                    <input class="form-control"
+                           name="myFile"
+                           type="file"
+                           ng-model="model.widget.upload"
+                           id="myFile"
+                           accept=".jpg,.jpeg,.png,.pdf"
+                           placeholder="">
+                    <button class="btn btn-primary"> Upload Image</button>
+                </div>
+            </form>
+            <h2></h2>
+            <div class="input-group">
+                <h5 class="col-4">Username</h5>
+                <input class="form-control"
+                       ng-model="model.user.username"
+                       placeholder=" " readonly/>
+            </div>
+            <div class="input-group">
+                <h5 class="col-4">First Name </h5>
+                <input class="form-control"
+                       type="text"
+                       ng-model="model.user.firstName">
+            </div>
+            <div class="input-group">
+                <h5 class="col-4">Last Name</h5>
+                <input class="form-control"
+                       type="text"
+                       ng-model="model.user.lastName">
+            </div>
+            <div class="input-group">
+                <h5 class="col-4">Email</h5>
+                <input class="form-control"
+                       type="email"
+                       ng-model="model.user.email">
+            </div>
+            <h2></h2>
+            <a ng-click="model.updateProfile(model.user)"
+               class="btn btn-block btn-primary">Update</a>
+        </div>
+    </div>
+</div>

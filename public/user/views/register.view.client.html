@@ -1,0 +1,76 @@
+<div class="container-fluid col-lg-3">
+    <h2></h2>
+    <div ng-show="model.success" class="alert alert-success" role="alert">
+        {{model.message}}
+    </div>
+    <div ng-show="model.error" class="alert alert-danger" role="alert">
+        {{model.error}}
+    </div>
+    <label class="label" for="username">Username</label>
+    <div class="input-group">
+        <input class="form-control"
+               ng-model="user.username"
+               id="username"
+               placeholder="Username">
+    </div>
+    <h2></h2>
+    <label class="label" for="password">Password</label>
+    <div class="input-group">
+        <input class="form-control"
+               ng-model="user.password"
+               id="password"
+               type="password"
+               placeholder="Password"/>
+    </div>
+    <label class="label" for="repassword">Re-enter Password</label>
+    <div class="input-group">
+        <input class="form-control"
+               ng-model="user.repassword"
+               id="repassword"
+               type="password"
+               placeholder="Reenter Password"/>
+    </div>
+    <label class="label" for="fname">First Name</label>
+    <div class="input-group">
+        <input class="form-control"
+               type="text"
+               ng-model="user.firstName"
+               id="fname"
+               placeholder="First Name">
+    </div>
+    <label class="label" for="lname">Last Name</label>
+    <div class="input-group">
+        <input class="form-control"
+               type="text"
+               ng-model="user.lastName"
+               id="lname"
+               placeholder="Last Name">
+    </div>
+    <label class="label" for="email">Email</label>
+    <div class="input-group">
+        <input class="form-control"
+               type="email"
+               ng-model="user.email"
+               id="email"
+               placeholder="email">
+    </div>
+    <h2></h2>
+    <label for="userRole" style="color: cornsilk">What do you want to be?</label>
+    <select class="custom-select" id="userRole" ng-model="user.role">
+        <option value="USER">User</option>
+        <option value="ARTIST">Artist</option>
+        <option value="ADMIN">Admin</option>
+    </select>
+    <h2></h2>
+    <label class="label" for="lname">Mozzie Id</label>
+    <div class="input-group" ng-show="user.role=='ARTIST'">
+        <input class="form-control"
+               type="text"
+               ng-model="user.mozzieId"
+               id="mname"
+               placeholder="Mozzie Id">
+    </div>
+    <h2></h2>
+    <a ng-click="model.register(user)" class="btn btn-primary btn-block">Register</a>
+    <a href="#/login" class="btn btn-danger btn-block">Cancel</a>
+</div>

@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <ul class="list-group" style="opacity: 0.8">
+        <h2></h2>
+        <li class="list-group-item admin">People</li>
+        <li ng-repeat="user in model.users" class="list-group-item">
+            {{user.username}}
+            <select class="custom-select mx-auto my-auto" ng-model="user.role">
+                <option class="text-center" value="USER">User</option>
+                <option class="text-center" value="ADMIN">Admin</option>
+                <option class="text-center" value="ARTIST">Artist</option>
+            </select>
+            <span class="fa fa-check-square-o mr-3" ng-click="model.updateUser(user)" role="button">
+        </span>
+            <span class="fa fa-trash" ng-click="model.deleteUser(user._id)">
+        </span>
+        </li>
+    </ul>
+</div>

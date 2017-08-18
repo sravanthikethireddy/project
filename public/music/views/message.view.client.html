@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <div class="card-block">
+        <div ng-show="model.messages.length==0" class="alert alert-success">
+            No message yet! come back later!
+        </div>
+        <div class="list-group" ng-show="model.messages.length!=0">
+            <div class="list-group-item active">
+                <a class="col-6">Track</a>
+                <a class="col-6">Who shared it?</a>
+            </div>
+            <div ng-repeat="msg in model.messages | orderBy: dateCreated:true" ng-click="model.viewMessage(msg)"
+                 class="list-group-item list-group-item-action" ng-class="m.read?'':'cornsilk'">
+                <a class="col-6">
+                    <b style="color: black">{{m.track.title}}</b>
+                </a>
+                <a class="col-6">
+                    <b style="color: black">{{m.user.firstName}} {{m.user.lastName}}</b>
+                </a>
+                <a class="col-6">
+                    <b style="color: black">{{m.dateCreated | date:'MMM dd, yyyy h:mm a'}}</b>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
