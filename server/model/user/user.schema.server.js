@@ -21,6 +21,9 @@ module.exports = function () {
         messages: [{
             user: {type: mongoose.Schema.Types.ObjectId, ref: 'MozzieUser'},
             track: {type: mongoose.Schema.Types.ObjectId, ref: 'MozzieTrack'},
+            // track: {type: mongoose.Schema.Types.ObjectId, ref: 'MozzieTrack'},
+            // track: {type: mongoose.Schema.Types.ObjectId, ref: 'MozzieTrack'},
+            // track: {type: mongoose.Schema.Types.ObjectId, ref: 'MozzieTrack'},
             read: {type: Boolean, default: false},
             dateCreated: {type: Date, default: Date.now}
         }],

@@ -290,7 +290,8 @@
                 }, function (err) {
                     model.error = "Oops! Something went wrong!";
                 })
-        }}
+        }
+        }
 
         init();
 
