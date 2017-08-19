@@ -29,4 +29,4 @@ var port = process.env.PORT || 3000;
 app.listen(port);
 
 console.log("server up!");
-console.loe("http://localhost:3000");
+// console.loe("http://localhost:3000");
