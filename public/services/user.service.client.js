@@ -141,7 +141,7 @@
         }
 
         function deleteUser(userId) {
-            return $http.remove("/api/user/" + userId);
+            return $http.delete("/api/user/" + userId);
         }
 
         function updateCurrentUser(actUser) {

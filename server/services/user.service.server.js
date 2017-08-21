@@ -39,8 +39,8 @@ module.exports = function (app, model) {
         }));
     app.get('/fb/callback',
         passport.authenticate('fb', {
-            successRedirect: '/#/home',
-            failureRedirect: '/#/login'
+            successRedirect: '/#!/home',
+            failureRedirect: '/#!/login'
         }));
 
 
